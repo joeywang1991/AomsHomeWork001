@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微軟正黑體";
+}
+.page{
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.title{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.title img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;                       
+}
+.itemline2 .page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #323041;
+    align-items: center;     
+    padding: 30px;
+}
+.itemline2 .item1{
+    display: flex;
+    font-size: 40px;
+    font-weight: 900;
+    align-items: center;    
+}
+.itemline2 .item2{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.itemline2 .item2 span:first-child{
+    border-bottom: 5px solid orange;
+}
+.itemline2 .item3{
+    border: 3px solid orange;
+    font-size: 10px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: orange;
+}
+.itemline3{
+    width: 1500px;
+    height: 600px;
+    background-image: url('pictures/asset 9.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.itemline3 .item{    
+    padding-left: 65px;
+    padding-top: 250px;
+}
+.itemline3 .a{
+    font-size: 35px;
+    font-weight: 700;
+    color: #323041;
+}
+.itemline3 .b{
+    font-size: 60px;
+    font-weight: 700;
+    color: #57a5e3;
+}
+.itemline3 .c{
+    font-size: 16px;
+    font-weight: 700;
+    color: #323041;
+}
+.itemline3 .d{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: orange;
+    margin-top: 45px;
+    padding: 20px;
+}
