@@ -3,6 +3,36 @@
     padding: 0;
     font-family: "微軟正黑體";
 }
+.dog{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/pictures/asset\ 15.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 20px solid #ff9933;
+}
+.alt{
+    position: fixed;
+    font-size: 40px;
+    color: orange;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 0px 3px 5px gray;
+    padding: 20px;
+    left: 20px;
+    bottom: 20px;
+}
+.up{
+    position: fixed;
+    font-size: 15px;
+    color:white;
+    background-color: orange;
+    border-radius: 5%;
+    padding: 25px;
+    right: 20px;
+    bottom: 20px;
+}
+
 .title{
     background-color: black;
     display: flex;
@@ -10,7 +40,7 @@
     justify-content: space-between;
     color: white;
     align-items: center;
-    padding: 20px 80px;
+    padding: 20px 85px;
 }
 .title img{
     width: 20px;
@@ -23,7 +53,8 @@
     justify-content: space-between;
     color: #323041;
     align-items: center;     
-    padding: 30px 80px;
+    padding: 30px 85px;
+    
 }
 .itemline1 .item1{
     display: flex;
@@ -49,10 +80,9 @@
     color: orange;
 }
 .itemline2{
-    width: 1349px;
+    width: 100%;
     height: 600px;
     background-image: url('pictures/asset 9.jpeg');
-    background-position:right;
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -89,7 +119,7 @@
     padding: 0 85px;
 }
 .itemline3 img{
-    width: 560px;
+    width: 700px;
 }
 .itemline3 .item{    
     margin: 80px 0 0 40px;
@@ -141,6 +171,7 @@
 .itemline5 .pwh{
     width: 370px;
     height: 450px;  
+    margin: 10px;
 }
 .itemline5 .p1{
     background-image: url(/pictures/asset\ 10.jpeg);    
@@ -155,6 +186,162 @@
     font-size: 30px;
     margin-top: 390px;
 }
-.itemline6{
-    
+.box{
+    display: flex;
+    margin: 90px 85px;
+    /* border: 1px solid red;     */
+    justify-content: space-between;
+}
+.save{
+    padding: 20px;
+}
+.save .right{    
+    text-align: right;
+}
+.save .img1{
+    width: 90%;
+}
+.save .img2{
+    width: 100%;
+}
+.save .item{
+    width: 480px;
+}
+.save .p1{
+    color: #323041;
+    font-weight: 1000;
+    font-size: 40px;
+}
+.save .p2{
+    color: gray;
+    font-size: 5px;
+}
+.save .p3{
+    display: inline-block;
+    margin: 20px 0;
+    color: white;
+    background-color: orange;
+    padding: 20px;
+}
+
+.events{
+    width: 1400px;
+    background-image: url(/pictures/asset\ 13.jpeg);
+    text-align: center;
+    padding: 50px;
+}
+.events .p1{
+    color: #323041;
+    font-size: 50px;
+    font-weight: 1000;
+}
+.events .p2{
+    color: #34c8e7;
+    font-size: 60px;
+    font-weight: 1000;
+}
+.events .p3{
+    color: #323041;
+    font-size: 25px;
+    font-weight: 1000;
+}
+.events .p4{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: 1000;
+    background-color: orange;
+    padding: 20px;
+    margin: 20px;
+}
+.dog{
+    margin: 0;
+}
+
+.num{
+    background-image: url(/pictures/asset\ 18.jpeg);
+    background-position:center ;
+    padding: 80px 200px;
+    margin: 0;
+}
+.num p{
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+}
+.num .p1{
+    font-size: 50px;
+}
+.num .p2{
+    font-size: 20px;
+}
+.ig p{
+    text-align: center;
+    color: #323041;
+    font-size: 40px;
+    font-weight: 1000;
+    margin: 30px;
+}
+.ig .image{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.ig img{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+.last{    
+    margin: 0;
+    background-image: url(/pictures/asset\ 19.jpeg);
+    height: 300px;   
+    text-align: center; 
+    padding: 50px;
+    color: white;
+}
+.last .item1{
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.last .item1 img{
+    margin-right: 30px;
+}
+.last .item2{
+    display: flex;
+    justify-content: center;
+}
+.last .item2 i{
+    width: 20px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+.last .a{
+    background-color: turquoise;
+    border-radius: 5px;
+}
+.last .b{
+    background-color: blue;
+    border-radius: 5px;
+}
+.last .c{
+    background-color: rgb(177, 19, 19);
+    border-radius: 5px;
+}
+.last .d{
+    background-color: rgb(14, 14, 163);
+    border-radius: 5px;
+}
+.last .fb{  
+    display: inline-block;
+    width: 20px;
+}
+
+.last p{
+    font-size: 12px;
+    margin: 15px;
 }
