@@ -119,10 +119,14 @@
     padding: 0 85px;
 }
 .itemline3 img{
-    width: 700px;
+    width: 580px;
 }
 .itemline3 .item{    
     margin: 80px 0 0 40px;
+}
+.itemline3 .item p{
+    margin: 30px 0;
+    line-height: 1.5;
 }
 .itemline3 .text1{
     font-size: 45px;
@@ -152,6 +156,7 @@
     font-size: 50px;
     color:  #323041;
     font-weight: 1000;
+    margin-top: 120px;
 }
 .itemline4 .text1{
     font-size: 29px;
@@ -215,10 +220,11 @@
 .save .p2{
     color: gray;
     font-size: 5px;
+    line-height: 1.5;
 }
 .save .p3{
     display: inline-block;
-    margin: 20px 0;
+    margin: 30px 0;
     color: white;
     background-color: orange;
     padding: 20px;
@@ -226,6 +232,7 @@
 
 .events{
     width: 1400px;
+    height: 300px;
     background-image: url(/pictures/asset\ 13.jpeg);
     text-align: center;
     padding: 50px;
@@ -246,18 +253,65 @@
     font-weight: 1000;
 }
 .events .p4{
+    width: 100px;
     display: inline-block;
     color: white;
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 1000;
     background-color: orange;
-    padding: 20px;
+    padding: 30px;
     margin: 20px;
 }
-.dog{
-    margin: 0;
+.news{
+    text-align: center;
+    line-height: 1.5;
 }
-
+.news .p1{
+    color: #323041;
+    font-size: 48px;
+    font-weight: 1000;
+}
+.news .p2{
+    color: #34c8e7;
+    font-size: 28px;
+    font-weight: 1000;
+}
+.news .item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    margin: 35px;
+}
+.news .video{
+    width: 100%;
+}
+.news .img img{
+    margin-top: 58px;
+}
+.news .face{
+    border-radius: 100%;
+}
+.news .img1{
+    margin: 5px;
+    width: 530px;
+    height: 380px;
+    background-image: url(/pictures/asset\ 16.jpeg);
+}
+.news .img2{
+    margin: 5px;
+    width: 530px;
+    height: 380px;
+    background-image: url(/pictures/asset\ 17.jpeg);
+}
+.news .img p{
+    color: white;
+    font-size: 16px;
+    width: 800;
+}
+.news .img .p3{
+    font-size: 28px;
+    font-weight: 1000;
+}
 .num{
     background-image: url(/pictures/asset\ 18.jpeg);
     background-position:center ;
@@ -312,36 +366,39 @@
 .last .item2{
     display: flex;
     justify-content: center;
+    margin: 30px;
 }
 .last .item2 i{
     width: 20px;
     font-size: 20px;
-    margin: 10px;
-    padding: 5px;
+    margin: 3px;
+    padding: 15px;
     color: white;
 }
 .last .a{
-    background-color: turquoise;
-    border-radius: 5px;
+    background-color: #00aeef;
+    border-radius: 3px;
 }
 .last .b{
-    background-color: blue;
-    border-radius: 5px;
+    background-color: #547cd5;
+    border-radius: 3px;
 }
 .last .c{
-    background-color: rgb(177, 19, 19);
-    border-radius: 5px;
+    background-color: #cc3300;
+    border-radius: 3px;
 }
 .last .d{
-    background-color: rgb(14, 14, 163);
-    border-radius: 5px;
+    background-color: #0075b6;
+    border-radius: 3px;
 }
 .last .fb{  
     display: inline-block;
     width: 20px;
 }
-
 .last p{
-    font-size: 12px;
+    font-size: 15px;
     margin: 15px;
+}
+.last .footer{
+    margin-top: 40px;
 }
